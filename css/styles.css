@@ -105,28 +105,48 @@ img {
 
 .img-container {
   display: flex;
+  padding-bottom: 112px;
 }
 .img-posm {
-  padding-left: 21.92px;
+  margin-left: 21.92px;
 }
 .merch {
-  padding-left: 21.92px;
+  margin-left: 21.92px;
 }
 .event {
-  padding-left: 20.92px;
+  margin-left: 20.92px;
 }
 
 /** FOOTER **/
-
-.site-footer {
-  padding-left: 177px;
-  padding-block-end: 187px;
+.active {
+  color: var(--blue);
 }
-p {
+.footer-img {
+  display: flex;
+  flex-direction: column;
+}
+.span {
+  display: inline-block;
   font-size: 16px;
   font-weight: bold;
   color: #CECECE;
+  padding-bottom: 9px;
 }
-.footer-img {
-
+.social {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social-item:not(:last-child) {
+  margin-right: 105px;
+}
+.social-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #686868;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
 }
