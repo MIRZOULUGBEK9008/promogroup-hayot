@@ -1,6 +1,8 @@
 /* CUSTOM-PROPS */
 :root {
-
+  --gray: #6d6d6d;
+  --white: #fff;
+  --blue: #0000ff;
 }
 
 /* FONT-FACE  */
@@ -25,7 +27,7 @@ body {
   height: 100%;
   background-color: #fff;
   color: #222;
-  font-family: "Arial", sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   padding: 0;
@@ -46,10 +48,10 @@ img {
 
 /* CONTAINER  */
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -71,4 +73,60 @@ img {
 /* MAIN-CONTENT  */
 .main-content {
   flex-grow: 1;
+}
+.header-site {
+  padding-bottom: 56px;
+}
+.container {
+  padding-top: 56px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.site-ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.site-li {
+  margin-right: 74px;
+  font-style: ;
+}
+.site-link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/** Img Container**/
+
+.img-container {
+  display: flex;
+}
+.img-posm {
+  padding-left: 21.92px;
+}
+.merch {
+  padding-left: 21.92px;
+}
+.event {
+  padding-left: 20.92px;
+}
+
+/** FOOTER **/
+
+.site-footer {
+  padding-left: 177px;
+  padding-block-end: 187px;
+}
+p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #CECECE;
+}
+.footer-img {
+
 }
